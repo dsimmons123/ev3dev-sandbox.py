@@ -26,15 +26,15 @@ right_motor = Motor(Port.C)
 robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104)
 
 # Go forward and backwards for one meter.
-robot.straight(1000)
+robot.straight(10)
 ev3.speaker.beep()
 
-robot.straight(-1000)
+robot.straight(-10)
 ev3.speaker.beep()
 
 # Turn clockwise by 360 degrees and back again.
-robot.turn(360)
+robot.turn(3)
 ev3.speaker.beep()
 
-robot.turn(-360)
+robot.turn(-3)
 ev3.speaker.beep()

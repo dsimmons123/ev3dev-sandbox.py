@@ -9,6 +9,7 @@ python = "^3.8"
 python-ev3dev = "^1.2.0"
 python-ev3dev2 = "^2.1.0"
 pybricks = "^2.0.0"
+pybricks-stubs = "^2.0.2"
 
 [tool.poetry.dev-dependencies]
 

@@ -16,6 +16,14 @@ version = "2.0.0.post1"
 
 [[package]]
 category = "main"
+description = "A stubs package to write EV3 Python code."
+name = "pybricks-stubs"
+optional = false
+python-versions = "*"
+version = "2.0.2"
+
+[[package]]
+category = "main"
 description = "Python language bindings for ev3dev"
 name = "python-ev3dev"
 optional = false
@@ -37,7 +45,7 @@ version = "2.1.0.post1"
 Pillow = "*"
 
 [metadata]
-content-hash = "24667baf1eb73f45a25518f8c389d705c076711b987eed0eef5692aa102a1979"
+content-hash = "ded62fffd222dfb055db77abb9044acd11d798e60a1fc165ba07506c02a121d4"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -74,6 +82,10 @@ pillow = [
 pybricks = [
     {file = "pybricks-2.0.0.post1-py3-none-any.whl", hash = "sha256:8ad4a973d936ff22b64098934f6e9a05e6627a44b74c350b298dff0d973dbad7"},
     {file = "pybricks-2.0.0.post1.tar.gz", hash = "sha256:4b0b26f3cacda1176d2ce012d23a0ea3caffb704b7fd10d9447c7154022043ee"},
+]
+pybricks-stubs = [
+    {file = "pybricks-stubs-2.0.2.tar.gz", hash = "sha256:66620551327e7c373063505ba1187baa2c09d493c2cdbb0ddcf9365e59ca05ad"},
+    {file = "pybricks_stubs-2.0.2-py3-none-any.whl", hash = "sha256:c156a1a84f2d2af933eefd79a4123fbacfedad341972e1b32cc56c9947e76f30"},
 ]
 python-ev3dev = [
     {file = "python-ev3dev-1.2.0.tar.gz", hash = "sha256:c9064c9c58d8751862c829293f98ffcb75c7b7384618f50a6be89bb651223bcf"},
